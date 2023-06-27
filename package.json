@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lakshminandakumar/weather-wise/issues"
   },
-  "homepage": "https://github.com/lakshminandakumar/weather-wise#readme"
+  "homepage": "https://github.com/lakshminandakumar/weather-wise#readme",
+  "dependencies": {
+    "chart.js": "^4.3.0"
+  }
 }
