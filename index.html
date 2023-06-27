@@ -12,7 +12,7 @@
             <button><img src="images/search.png"></button>
         </div>
         <div class="error">
-            <p>Invalid city name!</p>
+            <p>Oops!! Invalid city name!</p>
         </div>
         <div class="weather">
             <img src="images/rain.png" class="weather-icon">
@@ -37,7 +37,7 @@
         </div>
     </div>
     <script>
-        const apiKey = process.env.API_KEY;
+        const apiKey = "be522005ec5fbe5935c01ed4a28ef8ab";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
         const searchBox = document.querySelector('.search input');
