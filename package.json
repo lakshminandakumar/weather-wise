@@ -1,0 +1,19 @@
+{
+  "name": "weather-wise",
+  "version": "1.0.0",
+  "description": "This is a simple demo weather app I've created using HTML, CSS & Javascript for testing purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshminandakumar/weather-wise.git"
+  },
+  "author": "Lakshmi Nandakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshminandakumar/weather-wise/issues"
+  },
+  "homepage": "https://github.com/lakshminandakumar/weather-wise#readme"
+}
