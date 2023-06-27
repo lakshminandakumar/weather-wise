@@ -10,8 +10,8 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    /* background: linear-gradient(175deg,#424645, #6f6e3b, #2d2560); */
-    background: linear-gradient(200deg, #ee9f4f, #258701);
+    /* background: linear-gradient(175deg, #f3573c, #9a6631, #2e9c06); */
+    background: linear-gradient(175deg, #ba2fe9, #5a036f, #1750e1, #035f06, #cdca21, #e18317, #ec0808);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
