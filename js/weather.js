@@ -1,8 +1,11 @@
-const apiKey = "be522005ec5fbe5935c01ed4a28ef8ab";
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env" });
+
+const apiKey = process.env.API_KEY;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
-const searchBox = document.querySelector('.search input');
-const searchBtn = document.querySelector('.search button');
+
 const weatherIcon = document.querySelector('.weather-icon');
 
 export async function checkWeather(city){
@@ -37,6 +40,3 @@ export async function checkWeather(city){
         document.querySelector(".error").style.display = "none";
     }
 }
-searchBtn.addEventListener("click", ()=>{
-    checkWeather(searchBox.value);
-})
