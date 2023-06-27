@@ -10,6 +10,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 
 const weatherIcon = document.querySelector('.weather-icon');
+const appCard = document.querySelector('.card');
 
 export async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -27,10 +28,13 @@ export async function checkWeather(city){
 
         if(data.weather[0].main == "Clouds"){
             weatherIcon.src = "images/clouds.png";
+            appCard.style = "background: linear-gradient(200deg, #ee9f4f, #258701)";
         }else if(data.weather[0].main == "Clear"){
             weatherIcon.src = "images/clear.png";
+            appCard.style = "background: linear-gradient(135deg, #00feba, #5b548a)";
         }else if(data.weather[0].main == "Rain"){
             weatherIcon.src = "images/rain.png";
+            appCard.style = "background: linear-gradient(175deg, #424645, #6f6e3b, #2d2560)";
         }else if(data.weather[0].main == "Drizzle"){
             weatherIcon.src = "images/drizzle.png";
         }else if(data.weather[0].main == "Mist"){
