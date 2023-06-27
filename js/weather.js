@@ -1,8 +1,11 @@
-import dotenv from "dotenv";
+// import "../node_modules/dotenv/config.js";
 
-dotenv.config({ path: ".env" });
+// dotenv.config({ path: ".env" });
 
-const apiKey = process.env.API_KEY;
+
+// const apiKey = process.env.API_KEY;
+
+const apiKey = "be522005ec5fbe5935c01ed4a28ef8ab";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 

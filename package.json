@@ -4,7 +4,7 @@
   "description": "This is a simple demo weather app I've created using HTML, CSS & Javascript for testing purposes.",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
+    "start": "http-server --cors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
