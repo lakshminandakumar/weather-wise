@@ -9,8 +9,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "includeExports": true,
-        "semi": true,
-        "quotes": true
+        "includeExports": "error",
+        "semi": "error",
+        "quotes": "error"
     }
 }
