@@ -22,8 +22,8 @@ Depending on the weather conditions of the place, the app beackground changes!
 
 <h2>Running the application locally</h2>
 
-Step 1: Clone the repository
-Step 2: Run npm i
-Step 3: Add your api key to the env file 
-Step 4: Run npm start
+Step 1: Clone the repository</br>
+Step 2: Run npm i</br>
+Step 3: Add your api key to the env file </br>
+Step 4: Run npm start</br>
 Step 5: Open the localhost on a browser
